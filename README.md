@@ -33,3 +33,16 @@ The front-end is deliberately separated from the data. A production version can 
 For publication, the simplest hosting options are GitHub Pages, Cloudflare Pages, Netlify, or Vercel. A scheduled collector can run separately (for example, once per day).
 
 Important: preserve the original article URL and source, and clearly distinguish publication date from event/occurrence date when they differ.
+
+
+## Automatic daily updates
+
+This version includes a GitHub Actions workflow in `.github/workflows/update-news.yml`.
+It runs every day at 06:17 UTC and can also be started manually from the **Actions** tab.
+
+The collector reads RSS feeds, keeps a rolling archive, deduplicates stories, assigns categories
+(including **AI & Robotics**), and updates `data.json` and `data.js`.
+
+No API key is required for this first automated version. Because it uses RSS metadata, the summaries
+are short feed-based summaries. A later version can add AI-generated summaries and a stronger
+"interestingness" ranking using an API key stored safely as a GitHub Actions secret.
