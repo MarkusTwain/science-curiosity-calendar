@@ -1,0 +1,37 @@
+name: Update Science & Curiosity News
+
+on:
+  schedule:
+    # 06:17 UTC every day. Avoiding the top of the hour reduces schedule delays.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Collect recent news
+        run: python scripts/update_news.py
+
+      - name: Publish updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json data.js
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Daily news update"
+            git push
+          fi
