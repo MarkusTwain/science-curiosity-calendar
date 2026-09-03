@@ -11,7 +11,8 @@ const weekSubtitle = document.getElementById("weekSubtitle");
 const dialog = document.getElementById("articleDialog");
 const dialogContent = document.getElementById("dialogContent");
 
-const categories = ["All", ...new Set(STORIES.map(s => s.category))];
+const preferredOrder = ["All", "Science", "Space", "Nature", "Archaeology", "AI & Robotics", "Technology", "Celebration"];
+const categories = preferredOrder.filter(c => c === "All" || STORIES.some(s => s.category === c));
 
 function pad(n) { return String(n).padStart(2, "0"); }
 function iso(d) { return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
@@ -43,7 +44,7 @@ function renderFilters() {
 function matches(story) {
   const q = state.query.toLowerCase().trim();
   const categoryOk = state.category === "All" || story.category === state.category;
-  const text = `${story.title} ${story.summary} ${story.category}`.toLowerCase();
+  const text = `${story.title} ${story.summary} ${story.why} ${story.category} ${story.source}`.toLowerCase();
   return categoryOk && (!q || text.includes(q));
 }
 
@@ -51,8 +52,7 @@ function render() {
   renderFilters();
   const end = addDays(state.weekStart, 6);
   weekTitle.textContent = `${formatDate(state.weekStart,{day:"numeric",month:"short"})} — ${formatDate(end,{day:"numeric",month:"short",year:"numeric"})}`;
-  weekSubtitle.textContent = "Science, discoveries, strange phenomena, anniversaries and events.";
-
+  weekSubtitle.textContent = "Real science, space, nature, archaeology, AI & robotics, technology and curiosity news.";
   const today = iso(new Date());
   calendar.innerHTML = "";
 
