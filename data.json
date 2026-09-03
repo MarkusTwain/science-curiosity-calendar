@@ -10,12 +10,12 @@
   },
   {
     "date": "2026-09-03",
-    "category": "Space",
-    "title": "BepiColombo begins the final approach to Mercury",
-    "summary": "ESA and JAXA's BepiColombo mission reaches a major milestone today as its Mercury Transfer Module separates from the two science orbiters after eight years of interplanetary travel.",
-    "why": "Getting a spacecraft into orbit around Mercury is exceptionally difficult. The separation starts one of the mission's most demanding operational phases.",
-    "source": "European Space Agency",
-    "url": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
+    "category": "AI & Robotics",
+    "title": "Physical AI is creating a new demand for robot senses",
+    "summary": "At SEMICON Taiwan 2026, the robotics industry is highlighting increasingly sophisticated combinations of cameras, force sensors and other sensing technologies as robots move toward practical deployment.",
+    "why": "A robot can have a powerful AI model and still fail if it cannot reliably sense what its body and surroundings are doing. Better sensing is a key part of turning demos into useful machines.",
+    "source": "DIGITIMES",
+    "url": "https://www.digitimes.com/news/a20260902PD221/demand-robot-2026-taiwan-sensor.html"
   },
   {
     "date": "2026-09-03",
@@ -28,39 +28,12 @@
   },
   {
     "date": "2026-09-03",
-    "category": "AI & Robotics",
-    "title": "Physical AI is creating a new demand for robot senses",
-    "summary": "At SEMICON Taiwan 2026, the robotics industry is highlighting increasingly sophisticated combinations of cameras, force sensors and other sensing technologies as robots move toward practical deployment.",
-    "why": "A robot can have a powerful AI model and still fail if it cannot reliably sense what its body and surroundings are doing. Better sensing is a key part of turning demos into useful machines.",
-    "source": "DIGITIMES",
-    "url": "https://www.digitimes.com/news/a20260902PD221/demand-robot-2026-taiwan-sensor.html"
-  },
-  {
-    "date": "2026-09-02",
     "category": "Space",
-    "title": "Hubble spots a strange ten-sided wave around Saturn's south pole",
-    "summary": "New Hubble observations reveal a large, evolving decagon-shaped atmospheric wave around Saturn's south pole. The feature has become more pronounced since it was first seen in observations dating to 2023.",
-    "why": "Saturn's north pole is famous for its long-lived hexagon. A persistent ten-sided pattern in the southern hemisphere gives scientists a new atmospheric puzzle to explain.",
-    "source": "NASA / Hubble",
-    "url": "https://science.nasa.gov/asset/hubble/decagon-on-saturns-south-pole-single-filter/"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "Archaeology",
-    "title": "A 4,000-year-old Egyptian tomb reveals a mysterious 'false door'",
-    "summary": "Archaeologists working at Saqqara uncovered a tomb belonging to a high-ranking official named Sekhentiu-Ptah, along with a false door, an offering table, a purification basin and nearby burial shafts containing human remains and funerary objects.",
-    "why": "False doors were symbolic gateways through which the dead were believed to move between the worlds of the living and the afterlife.",
-    "source": "Smithsonian Magazine",
-    "url": "https://www.smithsonianmag.com/smart-news/archaeologists-discover-a-4000-year-old-tomb-with-a-false-door-at-egypts-ancient-saqqara-necropolis-180989438/"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "AI & Robotics",
-    "title": "Delivery robots are taking over more college campuses",
-    "summary": "Autonomous delivery company Avride is expanding from four U.S. campuses to 25, taking over many locations previously served by Starship. Ohio State alone recorded nearly 235,000 robot deliveries during the 2025–26 academic year.",
-    "why": "College campuses are becoming real-world laboratories for physical AI because robots face pedestrians, weather, obstacles and unpredictable routes every day.",
-    "source": "Axios",
-    "url": "https://www.axios.com/2026/09/02/delivery-robots-college-campus-starship-avride"
+    "title": "BepiColombo begins the final approach to Mercury",
+    "summary": "ESA and JAXA's BepiColombo mission reaches a major milestone today as its Mercury Transfer Module separates from the two science orbiters after eight years of interplanetary travel.",
+    "why": "Getting a spacecraft into orbit around Mercury is exceptionally difficult. The separation starts one of the mission's most demanding operational phases.",
+    "source": "European Space Agency",
+    "url": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
   },
   {
     "date": "2026-09-02",
@@ -81,15 +54,6 @@
     "url": "https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-2026-09-02/"
   },
   {
-    "date": "2026-09-01",
-    "category": "AI & Robotics",
-    "title": "Nature asks a difficult question: who is responsible when AI helps write science?",
-    "summary": "Nature examines how generative AI is being used to search literature, generate ideas, draft responses and improve scientific writing — and what that means for human authorship and accountability.",
-    "why": "AI is moving into the scientific workflow itself. The challenge is not only whether AI can help, but who remains responsible for errors and judgments.",
-    "source": "Nature",
-    "url": "https://www.nature.com/articles/d41586-026-02686-z"
-  },
-  {
     "date": "2026-09-02",
     "category": "Space",
     "title": "Europe's first lunar rover gets a green light",
@@ -106,6 +70,33 @@
     "why": "Studying controlled re-entries helps scientists understand how spacecraft break apart and can improve future satellite disposal methods.",
     "source": "European Space Agency",
     "url": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success"
+  },
+  {
+    "date": "2026-09-02",
+    "category": "AI & Robotics",
+    "title": "Delivery robots are taking over more college campuses",
+    "summary": "Autonomous delivery company Avride is expanding from four U.S. campuses to 25, taking over many locations previously served by Starship. Ohio State alone recorded nearly 235,000 robot deliveries during the 2025–26 academic year.",
+    "why": "College campuses are becoming real-world laboratories for physical AI because robots face pedestrians, weather, obstacles and unpredictable routes every day.",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/09/02/delivery-robots-college-campus-starship-avride"
+  },
+  {
+    "date": "2026-09-02",
+    "category": "Archaeology",
+    "title": "A 4,000-year-old Egyptian tomb reveals a mysterious 'false door'",
+    "summary": "Archaeologists working at Saqqara uncovered a tomb belonging to a high-ranking official named Sekhentiu-Ptah, along with a false door, an offering table, a purification basin and nearby burial shafts containing human remains and funerary objects.",
+    "why": "False doors were symbolic gateways through which the dead were believed to move between the worlds of the living and the afterlife.",
+    "source": "Smithsonian Magazine",
+    "url": "https://www.smithsonianmag.com/smart-news/archaeologists-discover-a-4000-year-old-tomb-with-a-false-door-at-egypts-ancient-saqqara-necropolis-180989438/"
+  },
+  {
+    "date": "2026-09-01",
+    "category": "AI & Robotics",
+    "title": "Nature asks a difficult question: who is responsible when AI helps write science?",
+    "summary": "Nature examines how generative AI is being used to search literature, generate ideas, draft responses and improve scientific writing — and what that means for human authorship and accountability.",
+    "why": "AI is moving into the scientific workflow itself. The challenge is not only whether AI can help, but who remains responsible for errors and judgments.",
+    "source": "Nature",
+    "url": "https://www.nature.com/articles/d41586-026-02686-z"
   },
   {
     "date": "2026-08-31",
