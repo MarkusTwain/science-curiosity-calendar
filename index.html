@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A weekly calendar of interesting science, discoveries, space, nature, history and celebrations.">
+  <title>Science & Curiosity Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">✦</div>
+      <div>
+        <h1>Science & Curiosity</h1>
+        <p>Your weekly calendar of things worth knowing</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="todayBtn" class="ghost-btn">Today</button>
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="eyebrow">WEEKLY DIGEST</span>
+        <h2 id="weekTitle">This week</h2>
+        <p id="weekSubtitle">Science, discoveries, strange phenomena, anniversaries and events.</p>
+      </div>
+      <div class="week-nav">
+        <button id="prevWeek" aria-label="Previous week">←</button>
+        <button id="nextWeek" aria-label="Next week">→</button>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Search this week..." aria-label="Search">
+      </div>
+      <div id="filters" class="filters"></div>
+    </section>
+
+    <section id="calendar" class="calendar" aria-live="polite"></section>
+
+    <section class="archive">
+      <div>
+        <span class="eyebrow">ARCHIVE</span>
+        <h3>Browse previous weeks</h3>
+      </div>
+      <div id="archiveList" class="archive-list"></div>
+    </section>
+  </main>
+
+  <dialog id="articleDialog">
+    <button id="closeDialog" class="dialog-close" aria-label="Close">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <footer>
+    <p>Science & Curiosity Calendar · Front-end prototype</p>
+    <p class="muted">Replace <code>data.js</code> with your collected stories to publish a live edition.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
