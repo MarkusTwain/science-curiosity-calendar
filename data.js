@@ -107,14 +107,5 @@ const STORIES = [
     "why": "Modern archaeology can combine ancient DNA, physical remains and digital modelling to turn an anonymous skeleton into a much more personal historical story.",
     "source": "Smithsonian Magazine",
     "url": "https://www.smithsonianmag.com/smart-news/see-the-digitally-reconstructed-face-of-an-ancient-man-who-witnessed-englands-greatest-upheaval-180989425/"
-  },
-  {
-    "date": "2026-08-29",
-    "category": "Science",
-    "title": "A new atmospheric pattern is changing how scientists think about Saturn",
-    "summary": "Follow-up observations of Saturn's atmosphere are helping researchers compare its unusual polar dynamics with patterns seen on other giant planets.",
-    "why": "Gas giants are natural laboratories for fluid dynamics on enormous scales, and their atmospheres can reveal physical processes that are impossible to reproduce on Earth.",
-    "source": "NASA / Hubble",
-    "url": "https://science.nasa.gov/asset/hubble/decagon-on-saturns-south-pole-single-filter/"
   }
 ];
