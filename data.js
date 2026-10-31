@@ -98,14 +98,5 @@ const STORIES = [
     "why": "AI is moving into the scientific workflow itself. The challenge is not only whether AI can help, but who remains responsible for errors and judgments.",
     "source": "Nature",
     "url": "https://www.nature.com/articles/d41586-026-02686-z"
-  },
-  {
-    "date": "2026-08-31",
-    "category": "Archaeology",
-    "title": "A nearly thousand-year-old English skeleton gets a new face",
-    "summary": "Researchers used DNA, dental evidence and archaeological context to learn more about an 11th-century man known as 'Conquest Man.' A digital facial reconstruction now offers a striking glimpse of what he may have looked like.",
-    "why": "Modern archaeology can combine ancient DNA, physical remains and digital modelling to turn an anonymous skeleton into a much more personal historical story.",
-    "source": "Smithsonian Magazine",
-    "url": "https://www.smithsonianmag.com/smart-news/see-the-digitally-reconstructed-face-of-an-ancient-man-who-witnessed-englands-greatest-upheaval-180989425/"
   }
 ];
