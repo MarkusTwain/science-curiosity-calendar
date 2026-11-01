@@ -89,14 +89,5 @@ const STORIES = [
     "why": "False doors were symbolic gateways through which the dead were believed to move between the worlds of the living and the afterlife.",
     "source": "Smithsonian Magazine",
     "url": "https://www.smithsonianmag.com/smart-news/archaeologists-discover-a-4000-year-old-tomb-with-a-false-door-at-egypts-ancient-saqqara-necropolis-180989438/"
-  },
-  {
-    "date": "2026-09-01",
-    "category": "AI & Robotics",
-    "title": "Nature asks a difficult question: who is responsible when AI helps write science?",
-    "summary": "Nature examines how generative AI is being used to search literature, generate ideas, draft responses and improve scientific writing — and what that means for human authorship and accountability.",
-    "why": "AI is moving into the scientific workflow itself. The challenge is not only whether AI can help, but who remains responsible for errors and judgments.",
-    "source": "Nature",
-    "url": "https://www.nature.com/articles/d41586-026-02686-z"
   }
 ];
