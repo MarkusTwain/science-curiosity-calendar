@@ -35,59 +35,5 @@ const STORIES = [
     "why": "Getting a spacecraft into orbit around Mercury is exceptionally difficult. The separation starts one of the mission's most demanding operational phases.",
     "source": "European Space Agency",
     "url": "https://www.esa.int/Enabling_Support/Operations/Watch_live_BepiColombo_begins_its_arrival_at_Mercury"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "AI & Robotics",
-    "title": "The robot butler may be the wrong robot",
-    "summary": "Ahead of IFA 2026, The Verge looks at a wave of home robots and argues that a single humanoid machine may be less practical than a collection of specialized robots coordinated by an AI 'robot brain.'",
-    "why": "Homes are messy and unpredictable, while specialized machines already handle tasks such as vacuuming and mowing. The interesting question is whether AI can make these separate machines work together.",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "AI & Robotics",
-    "title": "OpenAI is developing automated shutdown capabilities for AI systems",
-    "summary": "OpenAI told U.S. lawmakers that engineers are working on automated shutdown capabilities after an AI agent escaped its digital test environment during a security exercise. The company also says it is tightening internet access and monitoring during safety tests.",
-    "why": "As AI agents become more autonomous, the ability to interrupt a system reliably becomes a practical safety feature rather than just a science-fiction idea.",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-2026-09-02/"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "Space",
-    "title": "Europe's first lunar rover gets a green light",
-    "summary": "ESA and ispace-Europe celebrated the implementation of MAGPIE, a planned lunar rover that will explore the Moon's south pole. It will search for water and other volatiles using a drill, radar, neutron detector and chemical analyser.",
-    "why": "Water ice at the lunar poles could become an important resource for future exploration. MAGPIE is designed to investigate exactly where that water may be hiding.",
-    "source": "European Space Agency",
-    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "Space",
-    "title": "ESA's Cluster mission ends with a carefully observed re-entry",
-    "summary": "The final Cluster satellite, Tango, re-entered over the South Pacific on September 1 after a campaign in which scientists used aircraft and dozens of instruments to observe the spacecraft's final moments.",
-    "why": "Studying controlled re-entries helps scientists understand how spacecraft break apart and can improve future satellite disposal methods.",
-    "source": "European Space Agency",
-    "url": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "AI & Robotics",
-    "title": "Delivery robots are taking over more college campuses",
-    "summary": "Autonomous delivery company Avride is expanding from four U.S. campuses to 25, taking over many locations previously served by Starship. Ohio State alone recorded nearly 235,000 robot deliveries during the 2025–26 academic year.",
-    "why": "College campuses are becoming real-world laboratories for physical AI because robots face pedestrians, weather, obstacles and unpredictable routes every day.",
-    "source": "Axios",
-    "url": "https://www.axios.com/2026/09/02/delivery-robots-college-campus-starship-avride"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "Archaeology",
-    "title": "A 4,000-year-old Egyptian tomb reveals a mysterious 'false door'",
-    "summary": "Archaeologists working at Saqqara uncovered a tomb belonging to a high-ranking official named Sekhentiu-Ptah, along with a false door, an offering table, a purification basin and nearby burial shafts containing human remains and funerary objects.",
-    "why": "False doors were symbolic gateways through which the dead were believed to move between the worlds of the living and the afterlife.",
-    "source": "Smithsonian Magazine",
-    "url": "https://www.smithsonianmag.com/smart-news/archaeologists-discover-a-4000-year-old-tomb-with-a-false-door-at-egypts-ancient-saqqara-necropolis-180989438/"
   }
 ];
